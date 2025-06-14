@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - StudyBuddy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: #fff;
+      display: flex;
+      flex-direction: row;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 960px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .form-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .form-section h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .form-section p {
+      margin-bottom: 20px;
+      color: #777;
+    }
+
+    .form-section label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    .form-section input[type="email"],
+    .form-section input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+
+    .form-section .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .form-section .options a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    .form-section button {
+      width: 100%;
+      background: #6c63ff;
+      color: #fff;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .form-section .social-login {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .form-section .social-login button {
+      margin: 8px 4px;
+      padding: 10px 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    .form-section .social-login button:hover {
+      background: #f0f0f0;
+    }
+
+    .form-section .signup {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+
+    .form-section .signup a {
+      color: #6c63ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .image-section {
+      flex: 1;
+      background: url('assets/login-illustration.png') center/contain no-repeat;
+      background-color: #f9f9f9;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .image-section {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h2>Login</h2>
+      <p>Don't have an account yet? <a href="signup.html">Sign Up</a></p>
+
+      <form action="login.php" method="POST">
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="you@example.com" required>
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter 6 character or more" required>
+
+        <div class="options">
+          <label><input type="checkbox"> Remember me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">LOGIN</button>
+      </form>
+
+      <div class="social-login">
+        <p>or login with</p>
+        <button>🔴 Google</button>
+        <button>🔵 Facebook</button>
+      </div>
+
+      <div class="signup">
+        <p>New to StudyBuddy? <a href="signup.html">Create an account</a></p>
+      </div>
+    </div>
+
+    <div class="image-section"></div>
+  </div>
+</body>
+</html>
