@@ -1,6 +1,6 @@
 # 📚 StudyBuddy
 
-A sleek, feature-rich web app designed to supercharge students' productivity, collaboration, and focus. Whether you're tracking your study time, chatting with peers, or testing your typing speed — StudyBuddy has it all in one premium experience.
+A sleek, feature-rich web app designed to supercharge students' productivity, collaboration, and focus. Whether you're finding accurate study partners, tracking your study time, chatting with peers, or testing your typing speed — StudyBuddy has it all in one premium experience.
 
 ---
 
@@ -13,16 +13,7 @@ A modern UI to navigate all modules with ease.
 Chat privately with friends or discuss inside study groups.
 
 👥 **Friends System**  
-Send and accept friend requests to connect with fellow learners.
-
-🏆 **Leaderboard**  
-See where you stand among your peers in various activities.
-
-🔔 **Notifications**  
-Real-time alerts for messages, requests, and more.
-
-⚙️ **Settings & Profile**  
-Edit your name, email, profile photo, CGPA, semester, earned credits, and DOB.
+Find study partners based on their semester and cgpa to ensure that he/she is exactly the buddy you want to study with.
 
 ⌨️ **Typing Test**  
 Boost your typing skills with real-time WPM and accuracy tracking.
