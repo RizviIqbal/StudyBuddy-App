@@ -1,0 +1,13 @@
+# Ignore uploaded files
+uploads/
+
+# Ignore sensitive database config
+db/config.php
+
+# Ignore logs and env files
+*.log
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
