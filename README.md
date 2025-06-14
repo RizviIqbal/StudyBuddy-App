@@ -42,14 +42,16 @@ Predict future CGPAs based on your academic goals.
 ## 🖼️ Preview
 
 > Main Dashboard  
-![Dashboard](assets/preview-dashboard.png)
+![Dashboard](assets/dashboard-preview.png)
 
 > Typing Test  
-![Typing Test](assets/preview-typing.png)
+![Typing Test](assets/preview-typing_test.png)
 
 > Study Groups Chat  
-![Study Groups](assets/preview-groups.png)
+![Study Groups](assets/preview-group_chat.png)
 
+> Find Friends  
+![Study Groups](assets/preview-find_friends.png)
 
 
 ---
